@@ -1,0 +1,15 @@
+{
+    "name": "Clarkfork Web Designs",
+    "email": "dylan@clarkforkwebdesigns.com",
+    "phoneForTel": "208-989-8541",
+    "phoneFormatted": "(208) 989-8541",
+    "address": {
+        "lineOne": "First Address Line",
+        "lineTwo": "Second Address Line",
+        "city": "Boise",
+        "state": "ID",
+        "zip": "83646",
+        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+    },
+    "domain": "https://www.clarkforkwebdesigns.com"
+}

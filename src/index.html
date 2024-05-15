@@ -1,0 +1,24 @@
+---
+title: 'Pixel Perfect Websites'
+description: 'Meta description for the page'
+preloadImg:
+  - '/assets/images/demo.jpg'
+  - '/assets/images/demo.jpg'
+pageCSS:
+  - '/assets/css/local.css'
+  - '/assets/css/critical.css'
+pageJS:
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+    <!-- page html here -->
+
+    {% include 'components/cta.html' %}
+{% endblock %}

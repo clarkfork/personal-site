@@ -1,0 +1,21 @@
+---
+title: 'Page title for <title> and OG tags'
+description: 'Description for <meta> and OG tags'
+preloadImg:
+  - '/assets/images/demo.jpg'
+  - '/assets/images/demo.jpg'
+pageCSS:
+  - '/assets/css/pagecss.css'
+pageJS:
+  - '/assets/css/javascript.js'
+permalink: 'page-path/'
+eleventyNavigation:
+    key: Name to appear in navigation
+    order: 1000
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- Page HTML goes here, without a <main> wrapper -->
+{% endblock %}

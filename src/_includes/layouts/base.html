@@ -1,0 +1,101 @@
+<!-- A full <head>, dynamically changing based on client.json and the page front matter -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Standard meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ description }}">
+        <meta name="keywords" content="KEYWORDS HERE">
+        <link rel="canonical" href="{{ client.domain }}{{ page.url }}">
+
+        <!--Social Media Display-->
+        <meta property="og:title" content="{{ title }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ client.domain }}{{ page.url }}" />
+        <meta property="og:image" content="PNG LOGO HERE" />
+        <meta property="og:image:secure_url" content="PNG LOGO HERE" />
+
+        <!--Favicons-->
+        <link rel="apple-touch-icon" sizes="180x180" href="180X180 PNG HERE">
+        <link rel="icon" type="image/png" sizes="32x32" href="32X32 PNG HERE">
+        <link rel="icon" type="image/png" sizes="16x16" href="16X16 PNG HERE">
+        <link rel="manifest" href="/assets/favicons/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Preloads -->
+        <link rel="preload" as="image" href="MAIN LOGO HERE">
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+        <link rel="stylesheet" href="/assets/css/root.css">
+
+        {% if preloadImg %}
+            {% if preloadImg is string %}
+                <link rel="preload" as="image" href="{{ preloadImg }}" />
+            {% else %}
+                {% for img in preloadImg %}
+                    <link rel="preload" as="image" href="{{ img }}" />
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+
+        {% if pageCSS %}
+            {% if pageCSS | length %}
+                {% if pageCSS is string %}
+                    <link rel="stylesheet" href="{{ pageCSS }}" />
+                {% else %}
+                    {% for css in pageCSS %}
+                        <link rel="stylesheet" href="{{ css }}" />
+                    {% endfor %}
+                {% endif %}
+            {% endif %}
+        {% endif %}
+
+        <title>
+            {% if page.url == '/'%}
+                {{ title }}
+                |
+                {{ client.name }}
+                |
+                {{ client.address.city }},
+                {{ client.address.state }}
+            {% else %}
+                {{ title }}
+                |
+                {{ client.name }}
+            {% endif %}
+        </title>
+    </head>
+
+    <body>
+        <!--Screen reader skip main nav-->
+        <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+        {% include "components/header.html" %}
+        <main id="main">
+            {% block body %}{% endblock %}
+        </main>
+        {% include "components/footer.html" %}
+
+        <script defer src="/assets/js/nav.js"></script>
+
+        {% if pageJS %}
+            {% if pageJS | length %}
+                {% if pageJS is string %}
+                    <script defer src="{{ pageJS }}"></script>
+                {% else %}
+                    {% for js in pageJS %}
+                        <script defer src="{{ js }}"></script>
+                    {% endfor %}
+                {% endif %}
+            {% endif %}
+        {% endif %}
+
+
+    </body>
+</html>
