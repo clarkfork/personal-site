@@ -1,1 +1,28 @@
 /* STYLES FOR ABOVE THE FOLD */
+#critical .container {
+  padding: 35px 6vw;
+}
+#critical .profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#critical .profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+#critical .content {
+  margin-top: 22px;
+}
+#critical .content h1 {
+  font-weight: 700;
+  font-size: 30px;
+  columns: var(--light);
+}
+#critical .content p {
+  margin-top: 10px;
+  font-size: 17px;
+  color: var(--bodyText);
+  line-height: 1.5;
+}

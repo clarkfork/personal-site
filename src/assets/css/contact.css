@@ -1,0 +1,51 @@
+#top {
+  padding: 35px 6vw;
+}
+#top h1 {
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 23px;
+}
+#top p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+#form {
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: var(--inputBackground);
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  color: var(--bodyText);
+  font-family: 'Geist';
+}
+textarea {
+  height: 100px;
+}
+button {
+  padding: 10px;
+  background-color: var(--buttonColor);
+  border: none;
+  border-radius: 5px;
+  color: #f0f0e8;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Geist';
+}
+button:hover {
+  background-color: var(--buttonHover);
+}

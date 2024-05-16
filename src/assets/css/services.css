@@ -1,0 +1,50 @@
+#top {
+  padding-top: 35px;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+#top h1 {
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 23px;
+}
+#top p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.75;
+}
+#services {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+#services .service {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#services .check-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+#services .service-name {
+  font-size: 16px;
+}
+#content {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+#content ul {
+  padding-left: 20px;
+}
+#content li {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+#content .space {
+  margin-top: 18px;
+}

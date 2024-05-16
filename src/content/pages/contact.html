@@ -1,0 +1,47 @@
+---
+title: 'Contact'
+description: 'Description for <meta> and OG tags'
+preloadImg:
+  - '/assets/images/demo.jpg'
+  - '/assets/images/demo.jpg'
+pageCSS:
+  - '/assets/css/contact.css'
+pageJS:
+permalink: 'contact/'
+eleventyNavigation:
+    key: Contact
+    order: 1000
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+<section id="top">
+    <h1 class="title">contact</h1>
+    <p>Need an experienced web developer? Send me an email or submit the contact form below!</p>
+</section>
+
+<section id="form">
+  <form name="Contact Form" method="post" netlify>
+    <label>
+        Name
+        <input required type="text" name="name" placeholder="Name">
+    </label>
+    <label>
+        Email
+        <input required type="email" name="email" placeholder="Email">
+    </label>
+    <label>
+        Phone
+        <input required type="number" name="phone" placeholder="Phone">
+    </label>
+    <label>
+        Message
+        <textarea required name="Message" placeholder="Write message..."></textarea>
+    </label>
+    <button type="submit">Send Message</button>
+</form>
+</section>
+
+{% endblock %}

@@ -1,0 +1,76 @@
+---
+title: 'Work'
+description: 'Description for <meta> and OG tags'
+preloadImg:
+  - '/assets/images/demo.jpg'
+  - '/assets/images/demo.jpg'
+pageCSS:
+  - '/assets/css/work.css'
+pageJS:
+permalink: 'work/'
+eleventyNavigation:
+    key: Work
+    order: 1000
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+<section id="top">
+    <h1 class="title">work</h1>
+    <p>On a mission to build products developers love, and along the way, teach the next generation of developers. Here's a summary of my work so far.</p>
+</section>
+
+<section id="work">
+  <div class="container">
+    <h1>My Work</h1>
+    <div class="item">
+      <div class="image">
+        <picture class="cs-picture cs-picture2">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/jordansite.png">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/jordansite.png">
+          <img loading="lazy" decoding="async" src="/assets/images/jordansite.png" alt="people">
+      </picture>
+      </div>
+      <div class="content">
+        <h2>Jordan Lawn & Landscape</h2>
+        <p>A dynamic link-in-bio tool to help creators and brands drive traffic</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="image">
+        <picture class="cs-picture cs-picture2">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/jordansite.png">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/jordansite.png">
+          <img loading="lazy" decoding="async" src="/assets/images/jordansite.png" alt="people">
+      </picture>
+      </div>
+      <div class="content">
+        <h2>Jordan Lawn & Landscape</h2>
+        <p>A dynamic link-in-bio tool to help creators and brands drive traffic</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="image">
+        <picture class="cs-picture cs-picture2">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/jordansite.png">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/jordansite.png">
+          <img loading="lazy" decoding="async" src="/assets/images/jordansite.png" alt="people">
+      </picture>
+      </div>
+      <div class="content">
+        <h2>Jordan Lawn & Landscape</h2>
+        <p>A dynamic link-in-bio tool to help creators and brands drive traffic</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

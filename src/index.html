@@ -18,7 +18,95 @@ eleventyNavigation:
 
 {% block body %}
 
-    <!-- page html here -->
+<section id="critical">
+  <div class="container">
+    <div class="profile">
+      <picture class="cs-picture cs-picture2">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/profile.png">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/profile.png">
+        <img loading="lazy" decoding="async" src="/assets/images/profile.png" alt="people">
+    </picture>
+    </div>
+    <div class="content">
+      <h1>Dylan Hoag</h1>
+      <p>Hey there! I'm Dylan, a web developer from Boise. I hand-code websites for small businesses at $0 down, $50/mo</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="content">
+  <div class="container">
+    <h1 class="title">What I Do</h1>
+    <div class="content">
+      <p>I do things a little different, I charge $0 down and $50 a month. That's an all-inclusive website package that includes a custom-coded website, unlimited edits, hosting, analytics, help with your Google Profile, and much more.</p>
+    </div>
+    <div class="content">
+      <p>I do this because your time is worth money, and you need to spend your time running your business, not fiddling with a website or fixing something that broke. I handle everything for my clients, and am essentially their personal web developer.</p>
+    </div>
+    <div class="content">
+      <p>My websites are designed with purpose. They score 100's across all metrics and are literally as fast as they can be. Over time, this makes my websites more favorable to the search algorithms, and they allow my clients to rank higher than their competitors.</p>
+    </div>
+    <div class="content">
+      <p>At the end of the month, I am confident that my websites brought in more than $50 in value to my clients. I'm selling a relationship, not just a website. And with that relationship comes peace of mind.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="work">
+  <div class="container">
+    <h1>My Work</h1>
+    <div class="item">
+      <a href="https://www.jordanlawnandlandscape.com/"></a>
+      <div class="image">
+        <picture class="cs-picture cs-picture2">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/jordansite.png">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/jordansite.png">
+          <img loading="lazy" decoding="async" src="/assets/images/jordansite.png" alt="people">
+      </picture>
+      </div>
+      <div class="content">
+        <h2>Jordan Lawn & Landscape</h2>
+        <p>Missoula, MT. I upgraded the website, and form submissions went up 3x from the redesign</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="image">
+        <picture class="cs-picture cs-picture2">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/truecoatsite.png">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/truecoatsite.png">
+          <img loading="lazy" decoding="async" src="/assets/images/truecoatsite.png" alt="people">
+      </picture>
+      </div>
+      <div class="content">
+        <h2>True Coat Painting</h2>
+        <p>Reno, NV. I helped transform their basic wix site into a custom-coded professional website</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="image">
+        <picture class="cs-picture cs-picture2">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/stingersite.png">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/stingersite.png">
+          <img loading="lazy" decoding="async" src="/assets/images/stingersite.png" alt="people">
+      </picture>
+      </div>
+      <div class="content">
+        <h2>Stingers Tattoo</h2>
+        <p>Boise, ID. I built them an awesome site that brought them to 2-3 daily form submissions</p>
+      </div>
+    </div>
+  </div>
+</section>
 
     {% include 'components/cta.html' %}
 {% endblock %}

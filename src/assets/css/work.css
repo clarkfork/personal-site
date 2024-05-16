@@ -1,16 +1,13 @@
-/* PAGE-SPECIFIC STYLES FOR THE HOME PAGE */
-#content {
-  padding: 30px 6vw;
+#top {
+  padding: 35px 6vw;
 }
-#content .container h1 {
+#top h1 {
   padding-bottom: 5px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 23px;
 }
-#content .content {
-  margin-top: 18px;
-}
-#content .content p {
+#top p {
+  margin-top: 15px;
   font-size: 16px;
   line-height: 1.75;
 }
@@ -21,7 +18,6 @@
   padding: 30px;
   background-color: var(--workColor);
   margin-top: 23px;
-  cursor: pointer;
 }
 #work .container h1 {
   font-weight: 700;
