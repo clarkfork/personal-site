@@ -21,36 +21,39 @@
 
 #work {
     padding: 30px 6vw;
-
-    .item {
-        padding: 30px;
-        background-color: var(--workColor);
-        margin-top: 23px;
-        cursor: pointer;
-    }
     .container h1 {
         font-weight: 700;
         font-size: 20px;
     }
-    .image {
+    .item {
+        display: block;
+        padding: 30px;
+        background-color: var(--workColor);
+        margin-top: 23px;
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+        border: 1px solid #191818;
+    }
+    .item .image {
         width: 100%;
         height: auto;
         object-fit: cover;
     }
-    .image img {
+    .item .image img {
         width: 100%;
         height: auto;
         object-fit: cover;
     }
-    .content {
+    .item .content {
         margin-top: 15px;
     }
-    .content h2 {
+    .item .content h2 {
         font-size: 20px;
         font-weight: 700;
         color: var(--light);
     }
-    .content p {
+    .item .content p {
         margin-top: 5px;
         font-size: 14px;
         font-weight: 300;

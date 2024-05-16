@@ -17,35 +17,39 @@
 #work {
   padding: 30px 6vw;
 }
-#work .item {
-  padding: 30px;
-  background-color: var(--workColor);
-  margin-top: 23px;
-  cursor: pointer;
-}
 #work .container h1 {
   font-weight: 700;
   font-size: 20px;
 }
-#work .image {
+#work .item {
+  display: block;
+  padding: 30px;
+  background-color: var(--workColor);
+  margin-top: 23px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border: 1px solid #191818;
+}
+#work .item .image {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-#work .image img {
+#work .item .image img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-#work .content {
+#work .item .content {
   margin-top: 15px;
 }
-#work .content h2 {
+#work .item .content h2 {
   font-size: 20px;
   font-weight: 700;
   color: var(--light);
 }
-#work .content p {
+#work .item .content p {
   margin-top: 5px;
   font-size: 14px;
   font-weight: 300;

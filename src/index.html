@@ -59,40 +59,24 @@ eleventyNavigation:
 <section id="work">
   <div class="container">
     <h1>My Work</h1>
-    <div class="item">
-      <a href="https://www.jordanlawnandlandscape.com/"></a>
+    <a class="item" href="https://www.jordanlawnandlandscape.com/">
       <div class="image">
-        <picture class="cs-picture cs-picture2">
+        <picture>
           <!--Mobile Image-->
           <source media="(max-width: 600px)" srcset="/assets/images/jordansite.png">
           <!--Tablet and above Image-->
           <source media="(min-width: 601px)" srcset="/assets/images/jordansite.png">
           <img loading="lazy" decoding="async" src="/assets/images/jordansite.png" alt="people">
       </picture>
-      </div>
+    </div>
       <div class="content">
         <h2>Jordan Lawn & Landscape</h2>
         <p>Missoula, MT. I upgraded the website, and form submissions went up 3x from the redesign</p>
       </div>
-    </div>
-    <div class="item">
+    </a>
+    <a class="item" href="https://www.stingerstattooboise.com/">
       <div class="image">
-        <picture class="cs-picture cs-picture2">
-          <!--Mobile Image-->
-          <source media="(max-width: 600px)" srcset="/assets/images/truecoatsite.png">
-          <!--Tablet and above Image-->
-          <source media="(min-width: 601px)" srcset="/assets/images/truecoatsite.png">
-          <img loading="lazy" decoding="async" src="/assets/images/truecoatsite.png" alt="people">
-      </picture>
-      </div>
-      <div class="content">
-        <h2>True Coat Painting</h2>
-        <p>Reno, NV. I helped transform their basic wix site into a custom-coded professional website</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="image">
-        <picture class="cs-picture cs-picture2">
+        <picture>
           <!--Mobile Image-->
           <source media="(max-width: 600px)" srcset="/assets/images/stingersite.png">
           <!--Tablet and above Image-->
@@ -104,9 +88,25 @@ eleventyNavigation:
         <h2>Stingers Tattoo</h2>
         <p>Boise, ID. I built them an awesome site that brought them to 2-3 daily form submissions</p>
       </div>
-    </div>
+    </a>
+    <a class="item" href="https://www.truecoat.netlify.app/">
+      <div class="image">
+        <picture>
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/truecoatsite.png">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/truecoatsite.png">
+          <img loading="lazy" decoding="async" src="/assets/images/truecoatsite.png" alt="people">
+      </picture>
+      </div>
+      <div class="content">
+        <h2>True Coat Painting</h2>
+        <p>Reno, NV. I helped transform their basic wix site into a custom-coded professional website</p>
+      </div>
+    </a>
   </div>
 </section>
+
 
     {% include 'components/cta.html' %}
 {% endblock %}
