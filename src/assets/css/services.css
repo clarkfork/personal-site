@@ -24,9 +24,6 @@
   display: flex;
   align-items: center;
 }
-#services .service-name p {
-  font-size: 15px;
-}
 #services ul {
   padding-left: 20px;
 }
