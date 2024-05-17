@@ -12,7 +12,8 @@
   line-height: 1.75;
 }
 #form {
-  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 form {
   display: flex;
