@@ -2,8 +2,6 @@
 title: 'Services'
 description: 'Description for <meta> and OG tags'
 preloadImg:
-  - '/assets/images/demo.jpg'
-  - '/assets/images/demo.jpg'
 pageCSS:
   - '/assets/css/services.css'
 pageJS:
@@ -17,66 +15,85 @@ eleventyNavigation:
 
 {% block body %}
 
-<section id="top">
-    <h1 class="title">services</h1>
-    <p><b>$0 down, $50 per month</b> for a complete website package. You own your domain and content, and I simply build and manage everything for you.</p>
-</section>
-
 <section id="services">
-  <div class="service">
-    <div class="check-icon">
-      <img src="/assets/svgs/check.svg" alt="Check Icon">
-    </div>
-    <div class="service-name">
-      Web Design & Development
-    </div>
-  </div>
-  <div class="service">
-    <div class="check-icon">
-      <img src="/assets/svgs/check.svg" alt="Check Icon">
-    </div>
-    <div class="service-name">
-      Unlimited Edits
-    </div>
-  </div>
-  <div class="service">
-    <div class="check-icon">
-      <img src="/assets/svgs/check.svg" alt="Check Icon">
-    </div>
-    <div class="service-name">
-      Hosting Fees Included
-    </div>
-  </div>
-  <div class="service">
-    <div class="check-icon">
-      <img src="/assets/svgs/check.svg" alt="Check Icon">
-    </div>
-    <div class="service-name">
-      100 Page Scores
-    </div>
-  </div>
-  <div class="service">
-    <div class="check-icon">
-      <img src="/assets/svgs/check.svg" alt="Check Icon">
-    </div>
-    <div class="service-name">
-      Google Analytics
-    </div>
-  </div>
-</section>
+  <h1 class="title">Services</h1>
 
-<section id="content">
-  <div class="container">
+  <div class="block">
+    <p><b>$0 down, $50 per month</b> for a complete website package. You own your domain and content, and I simply build and manage everything for you.</p>
+  </div>
+
+  <div class="block">
+    <div class="service">
+      <div class="check-icon">
+          <img src="/assets/svgs/check-dark.svg" width="20" height="20" loading="eager" alt="Check Icon">
+      </div>
+      <div class="service-name">
+          Web Design & Development
+      </div>
+  </div>
+  
+  <div class="service">
+      <div class="check-icon">
+          <img src="/assets/svgs/check-dark.svg" width="20" height="20" loading="eager" alt="Check Icon">
+      </div>
+      <div class="service-name">
+          Unlimited Edits
+      </div>
+  </div>
+  
+  <div class="service">
+      <div class="check-icon">
+          <img src="/assets/svgs/check-dark.svg" width="20" height="20" loading="eager" alt="Check Icon">
+      </div>
+      <div class="service-name">
+          Hosting Fees Included
+      </div>
+  </div>
+  
+  <div class="service">
+      <div class="check-icon">
+          <img src="/assets/svgs/check-dark.svg" width="20" height="20" loading="eager" alt="Check Icon">
+      </div>
+      <div class="service-name">
+          100 Page Scores
+      </div>
+  </div>
+  
+  <div class="service">
+      <div class="check-icon">
+          <img src="/assets/svgs/check-dark.svg" width="20" height="20" loading="eager" alt="Check Icon">
+      </div>
+      <div class="service-name">
+          Google Analytics
+      </div>
+  </div>
+  </div>
+  
+  <div class="block">
     <p>My monthly pricing is an alternative to the thousands of dollars in lump-sum pricing that most big agencies charge. It also makes your website costs easy to understand. There's no extra hosting costs, monthly retainers, or other fees with my service.</p>
+  </div>
+
+  <div class="block">
     <ul>
-      <li>No more paying $30-$40 per month on expensive hosting fees from Wix or Wordpress. I include hosting in the cost of my service.</li>
-      <li>Want some more information or content added to your site? Just give me a call and I'll make the changes instantly.</li>
-      <li>Cancel anytime with no fees or hassle whatsoever. You own your domain and content, and can leave anytime to set up elsewhere.</li>
-    </ul>
+        <li>No more paying $30-$40 per month on expensive hosting fees from Wix or Wordpress. I include hosting in the cost of my service.</li>
+        <li>Want some more information or content added to your site? Just give me a call and I'll make the changes instantly.</li>
+        <li>Cancel anytime with no fees or hassle whatsoever. You own your domain and content, and can leave anytime to set up elsewhere.</li>
+      </ul>
+  </div>
+
+  <div class="block">
     <p class="space"><b>Why pay me every month?</b> Because I handle everything. My clients never have to fiddle with a website or get frustrated over SEO. For most of my clients, a new client can bring hundreds or thousands of dollars (whether immediately, or over some time). If the website brings in one new client per month, it is more than paying for itself. Now imagine it brings in 2 or 3 more clients per month. You are spending $50 per month on my hassle-free service, and it is bringing much more to your business. It's an asset that brings you more business.</p>
+  </div>
+
+  <div class="block">
     <p class="space"><b>What's the process?</b> It's very simple. I'll send you a new client form (30-45 minutes to complete) and that will provide me with some information and content about your business, and will let us get started. Then I'll start designing your website (you can review along the way) and then I'll develop your website, deploy it, and maintain it for you.</p>
+  </div>
+
+  <div class="block">
     <p class="space"><b>Do you manage google ads?</b> Yes. I can setup and run google ads campaigns for a custom price, depending on the scope of the work. This helps bring your already-awesome website to the top of Google, allowing more visitors to go through your website funnels and contact your business.</p>
   </div>
+  
 </section>
+
 
 {% endblock %}

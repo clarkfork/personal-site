@@ -1,23 +1,16 @@
-#top {
+#services {
   padding-top: 35px;
   padding-left: 6vw;
   padding-right: 6vw;
 }
-#top h1 {
+#services h1 {
   padding-bottom: 5px;
   font-weight: 700;
   font-size: 23px;
 }
-#top p {
-  margin-top: 15px;
+#services p {
   font-size: 16px;
   line-height: 1.75;
-}
-#services {
-  padding-top: 5px;
-  padding-bottom: 15px;
-  padding-left: 6vw;
-  padding-right: 6vw;
 }
 #services .service {
   display: flex;
@@ -34,21 +27,13 @@
 #services .service-name {
   font-size: 16px;
 }
-#content {
-  padding-left: 6vw;
-  padding-right: 6vw;
-}
-#content ul {
+#services ul {
   padding-left: 20px;
 }
-#content li {
+#services li {
   margin-top: 15px;
   padding-left: 10px;
 }
-#content .space {
-  margin-top: 18px;
-}
-#content .space b {
-  color: #fff;
-  text-decoration: underline;
+#services .block {
+  padding-top: 20px;
 }
