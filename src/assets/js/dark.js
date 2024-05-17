@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const checkIcons = document.querySelectorAll('.check-icon img');
     
     // Get the current theme from localStorage or default to dark
-    let currentTheme = localStorage.getItem('theme') || 'dark';
+    let currentTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', currentTheme);
     
     // Show/hide icons based on current theme
