@@ -6,16 +6,16 @@
 @media only screen and (min-width: 0em) {
     // Website colors
     :root {
-        --dark: #111010;
-        --light: #ffffff;
-        --bodyText: #f0f0e8;
-        --grey: #888888;
-        --greyLight: #cccccc;
-        --workColor: #191818;
-        --inputBackground: #1e1e1e;
+        --dark: #f7f7f7;
+        --light: #111010;
+        --bodyText: #111010;
+        --grey: #181414;
+        --greyLight: #252525;
+        --inputBackground: #f7f7f7;
         --borderColor: #333333;
         --buttonHover: #444444;
         --buttonColor: #333333;
+        --workColor: #ececec;
 
         /* 13px - 16px */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -27,17 +27,17 @@
         --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
     }
 
-    [data-theme="light"] {
-        --dark: #f7f7f7;
-        --light: #111010;
-        --bodyText: #111010;
-        --grey: #181414;
-        --greyLight: #252525;
-        --inputBackground: #f7f7f7;
+    [data-theme="dark"] {
+        --dark: #111010;
+        --light: #ffffff;
+        --bodyText: #f0f0e8;
+        --grey: #888888;
+        --greyLight: #cccccc;
+        --workColor: #191818;
+        --inputBackground: #1e1e1e;
         --borderColor: #333333;
         --buttonHover: #444444;
         --buttonColor: #333333;
-        --workColor: #ececec;
     }
 
     /* Geist Regular */
@@ -175,7 +175,7 @@
     .nav-links a {
         text-decoration: none;
         color: var(--light);
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .dark-mode-toggle {

@@ -4,25 +4,6 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
   :root {
-    --dark: #111010;
-    --light: #ffffff;
-    --bodyText: #f0f0e8;
-    --grey: #888888;
-    --greyLight: #cccccc;
-    --workColor: #191818;
-    --inputBackground: #1e1e1e;
-    --borderColor: #333333;
-    --buttonHover: #444444;
-    --buttonColor: #333333;
-    /* 13px - 16px */
-    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
-    /* 31px - 49px */
-    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
-    --bodyFontSize: 1rem;
-    /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
-  }
-  [data-theme="light"] {
     --dark: #f7f7f7;
     --light: #111010;
     --bodyText: #111010;
@@ -33,6 +14,25 @@
     --buttonHover: #444444;
     --buttonColor: #333333;
     --workColor: #ececec;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+  }
+  [data-theme="dark"] {
+    --dark: #111010;
+    --light: #ffffff;
+    --bodyText: #f0f0e8;
+    --grey: #888888;
+    --greyLight: #cccccc;
+    --workColor: #191818;
+    --inputBackground: #1e1e1e;
+    --borderColor: #333333;
+    --buttonHover: #444444;
+    --buttonColor: #333333;
   }
   /* Geist Regular */
   @font-face {
@@ -150,7 +150,7 @@
 #header .nav-links a {
   text-decoration: none;
   color: var(--light);
-  font-size: 16px;
+  font-size: 17px;
 }
 #header .dark-mode-toggle {
   display: flex;
