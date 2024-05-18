@@ -55,7 +55,6 @@
   html {
     font-family: "Geist", sans-serif;
     /* Fallback font */
-    font-size: 100%;
     margin: 0;
     padding: 0;
     color: var(--bodyText);
@@ -203,6 +202,10 @@
   font-weight: 300;
   color: var(--greyLight);
 }
+#top {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
 #top .title-desc h1 {
   padding-bottom: 5px;
   font-weight: 700;
@@ -269,8 +272,4 @@
 #work .content h5,
 #work .content p {
   padding: 2px 0;
-}
-#top {
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
