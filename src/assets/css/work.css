@@ -50,7 +50,7 @@
   font-weight: 700;
 }
 #work .content h2,
-#work h5,
-#work p {
+#work .content h5,
+#work .content p {
   padding: 2px 0;
 }

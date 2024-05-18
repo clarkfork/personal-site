@@ -15,7 +15,8 @@
   font-size: 15px;
   line-height: 1.75;
 }
-#content .content p a {
+#content .content p,
+#content .content a {
   text-decoration: underline;
   color: var(--light);
 }
@@ -38,25 +39,25 @@
   box-shadow: var(--shadow);
   border-radius: 5px;
 }
-#work .item .image {
+#work .image {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-#work .item .image img {
+#work .image img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-#work .item .content {
+#work .content {
   margin-top: 15px;
 }
-#work .item .content h2 {
+#work .content h2 {
   font-size: 20px;
   font-weight: 700;
   color: var(--light);
 }
-#work .item .content p {
+#work .content p {
   margin-top: 5px;
   font-size: 14px;
   font-weight: 300;
@@ -67,7 +68,7 @@
   font-weight: 700;
 }
 #work .content h2,
-#work h5,
-#work p {
+#work .content h5,
+#work .content p {
   padding: 2px 0;
 }
