@@ -218,6 +218,17 @@
 #top .title-desc h6 {
   margin-top: 15px;
   font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+}
+#top .title-desc h1 {
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 25px;
+}
+#top .title-desc h6 {
+  margin-top: 15px;
+  font-size: 1.25rem;
   line-height: 1.75;
   font-weight: 400;
 }
