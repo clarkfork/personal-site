@@ -7,7 +7,7 @@
   font-weight: 700;
   font-size: 25px;
 }
-#services p {
+#services .desc p {
   margin-top: 15px;
   font-size: 16px;
   line-height: 1.75;
