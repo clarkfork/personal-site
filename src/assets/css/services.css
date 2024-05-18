@@ -1,9 +1,5 @@
 #services {
-  padding-top: 35px;
   padding-bottom: 35px;
-}
-#services .service-cards {
-  margin-top: 35px;
 }
 #services .card-container {
   display: flex;
