@@ -230,7 +230,7 @@
   font-size: 1.25rem;
   line-height: 1.75;
   font-weight: 400;
-  white-space: nowrap;
+  white-space: pre-wrap;
 }
 #work {
   padding-top: 30px;
