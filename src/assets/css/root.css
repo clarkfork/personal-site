@@ -101,21 +101,6 @@
     z-index: -1111111;
   }
 }
-/* Reset Margins */
-@media only screen and (min-width: 1024px) {
-  body,
-  html {
-    margin: 0;
-    padding: 0;
-  }
-}
-/* Scale full website with the viewport width */
-@media only screen and (min-width: 3000px) {
-  body,
-  html {
-    font-size: 0.55vw;
-  }
-}
 /* HEADER */
 /* HEADER */
 /* HEADER */
