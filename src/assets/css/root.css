@@ -212,3 +212,64 @@
   font-size: 16px;
   line-height: 1.75;
 }
+#work {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#work .container h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+#work .item {
+  display: block;
+  padding: 20px;
+  background-color: var(--workbg);
+  margin-top: 23px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  border-radius: 5px;
+}
+#work .image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#work .image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#work .content {
+  margin-top: 15px;
+}
+#work .content h2 {
+  font-size: 20px;
+  color: var(--light);
+  font-weight: 700;
+}
+#work .content p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--grey);
+}
+#work .content h5 {
+  font-size: 12px;
+  color: var(--greyLight);
+  line-height: 1.5;
+}
+#work .url {
+  font-size: 16px;
+  font-weight: 700;
+}
+#work .content h2,
+#work .content h5,
+#work .content p {
+  padding: 2px 0;
+}
+#top {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
