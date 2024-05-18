@@ -15,8 +15,7 @@
   font-size: 15px;
   line-height: 1.75;
 }
-#content .content p,
-#content .content a {
+#content .content p a {
   text-decoration: underline;
   color: var(--light);
 }
@@ -30,7 +29,7 @@
 }
 #work .item {
   display: block;
-  padding: 30px;
+  padding: 20px;
   background-color: var(--workbg);
   margin-top: 23px;
   text-decoration: none;
@@ -53,19 +52,24 @@
   margin-top: 15px;
 }
 #work .content h2 {
-  font-size: 20px;
-  font-weight: 700;
   color: var(--light);
+  font-size: 22px;
+  font-weight: 700;
 }
 #work .content p {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 300;
-  color: var(--greyLight);
+  color: var(--grey);
 }
 #work .url {
   font-size: 16px;
   font-weight: 700;
+}
+#work .content h5 {
+  font-size: 15px;
+  color: var(--greyLight);
+  line-height: 1.5;
 }
 #work .content h2,
 #work .content h5,
