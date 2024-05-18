@@ -219,6 +219,10 @@
   margin-top: 15px;
   font-size: 1.25rem;
   font-weight: 400;
+  white-space: normal;
+  /* Ensures normal white-space handling */
+  overflow-wrap: break-word;
+  /* Ensures words break to fit container */
 }
 #top .title-desc h1 {
   padding-bottom: 5px;
