@@ -50,10 +50,6 @@
   html {
     scroll-behavior: smooth;
     box-sizing: border-box;
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
   }
   body,
   html {
@@ -217,7 +213,7 @@
 }
 #top .title-desc h6 {
   margin-top: 15px;
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 400;
 }
 #content {
