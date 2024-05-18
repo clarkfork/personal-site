@@ -206,24 +206,6 @@
   font-weight: 300;
   color: var(--greyLight);
 }
-#top {
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-#top .title-desc h1 {
-  padding-bottom: 5px;
-  font-weight: 700;
-  font-size: 25px;
-}
-#top .title-desc h6 {
-  margin-top: 15px;
-  font-size: 1.25rem;
-  font-weight: 400;
-  white-space: normal;
-  /* Ensures normal white-space handling */
-  overflow-wrap: break-word;
-  /* Ensures words break to fit container */
-}
 #top .title-desc h1 {
   padding-bottom: 5px;
   font-weight: 700;
@@ -234,7 +216,10 @@
   font-size: 1.25rem;
   line-height: 1.75;
   font-weight: 400;
-  white-space: pre-wrap;
+  white-space: normal;
+  /* Ensures normal white-space handling */
+  overflow-wrap: break-word;
+  /* Ensures words break to fit container */
 }
 #work {
   padding-top: 30px;
