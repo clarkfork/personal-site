@@ -1,6 +1,7 @@
 /* PAGE-SPECIFIC STYLES FOR THE HOME PAGE */
 #content {
-  padding: 30px 6vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #content .container h1 {
   padding-bottom: 5px;
@@ -19,7 +20,8 @@
   color: var(--light);
 }
 #work {
-  padding: 30px 6vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #work .container h1 {
   font-weight: 700;
@@ -28,12 +30,13 @@
 #work .item {
   display: block;
   padding: 30px;
-  background-color: var(--workColor);
+  background-color: var(--workbg);
   margin-top: 23px;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-  border: 1px solid #191818;
+  box-shadow: var(--shadow);
+  border-radius: 5px;
 }
 #work .item .image {
   width: 100%;
@@ -58,4 +61,13 @@
   font-size: 14px;
   font-weight: 300;
   color: var(--greyLight);
+}
+#work .url {
+  font-size: 16px;
+  font-weight: 700;
+}
+#work .content h2,
+#work h5,
+#work p {
+  padding: 2px 0;
 }

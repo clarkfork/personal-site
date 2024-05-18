@@ -1,36 +1,59 @@
 #services {
   padding-top: 35px;
-  padding-left: 6vw;
-  padding-right: 6vw;
+  padding-bottom: 35px;
 }
 #services h1 {
   padding-bottom: 5px;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 25px;
 }
 #services p {
-  font-size: 15px;
+  margin-top: 15px;
+  font-size: 16px;
   line-height: 1.75;
 }
-#services .service {
+#services .service-cards {
+  margin-top: 35px;
+}
+#services .card-container {
   display: flex;
-  align-items: center;
-  margin-top: 10px;
+  justify-content: center;
 }
-#services .check-icon {
-  margin-right: 10px;
-  width: 16px;
-  height: auto;
-  display: flex;
-  align-items: center;
-}
-#services ul {
-  padding-left: 20px;
-}
-#services li {
+#services .card-container .card {
   margin-top: 15px;
-  padding-left: 10px;
+  background: var(--workbg);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  max-width: 400px;
+  text-align: left;
 }
-#services .block {
-  padding-top: 20px;
+#services .card-container .card .logos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#services .card-container .card .logos img {
+  display: inline-block;
+}
+#services .card-container .card h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--light);
+  margin-bottom: 10px;
+}
+#services .card-container .card h2 {
+  font-size: 19px;
+  color: var(--grey);
+  margin-bottom: 20px;
+}
+#services .card-container .card p {
+  font-size: 15px;
+  color: var(--greyLight);
+  line-height: 1.5;
+}
+#services .card-container .sub p {
+  margin-top: 10px;
+  font-size: 13px;
 }

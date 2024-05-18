@@ -10,34 +10,31 @@
         --light: #111010;
         --bodyText: #111010;
         --grey: #181414;
-        --greyLight: #252525;
+        --greyLight: #383636;
         --inputBackground: #f7f7f7;
         --borderColor: #333333;
         --buttonHover: #444444;
         --buttonColor: #333333;
-        --workColor: #ececec;
+        --workbg: #fff;
 
-        /* 13px - 16px */
-        --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
-        /* 31px - 49px */
-        --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
-        --bodyFontSize: 1rem;
+        --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-        /* 60px - 100px top and bottom */
-        --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
     }
 
     [data-theme="dark"] {
         --dark: #111010;
         --light: #ffffff;
         --bodyText: #f0f0e8;
-        --grey: #888888;
+        --grey: #eeeeee;
         --greyLight: #cccccc;
-        --workColor: #191818;
         --inputBackground: #1e1e1e;
         --borderColor: #333333;
         --buttonHover: #444444;
         --buttonColor: #333333;
+        --workbg: #000;
+    
+
+        --shadow: 0 4px 8px rgba(192, 192, 192, 0.1);
     }
 
     /* Geist Regular */
@@ -87,6 +84,8 @@
 
     body {
         transition: background-color 0.3s;
+        padding-left: 6vw;
+        padding-right: 6vw;
     }
 
     h1,
@@ -144,8 +143,8 @@
 /* HEADER */
 
 #header {
-    padding: 45px 6vw;
-
+    padding-top: 45px;
+    padding-bottom: 45px;
     .navbar {
         display: flex;
         align-items: center;
@@ -197,7 +196,8 @@
 /* FOOTER */
 
 #footer {
-    padding: 45px 6vw;
+    padding-top: 45px;
+    padding-bottom: 45px;
 
     .container h1 {
         padding-bottom: 5px;
@@ -225,6 +225,8 @@
     
     .info {
         margin-top: 0;
+        text-decoration: none;
+        color: var(--light);
     }
 
     .grey {

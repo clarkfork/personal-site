@@ -1,38 +1,67 @@
 #services {
     padding-top: 35px;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-bottom: 35px;
     h1 {
         padding-bottom: 5px;
         font-weight: 700;
-        font-size: 23px;
+        font-size: 25px;
     }
     p {
-        font-size: 15px;
+        margin-top: 15px;
+        font-size: 16px;
         line-height: 1.75;
     }
-   .service {
+    .service-cards {
+        margin-top: 35px;
+    }
+    .card-container {
         display: flex;
-        align-items: center;
-        margin-top: 10px;
-    }
-    .check-icon {
-        margin-right: 10px;
-        width: 16px;
-        height: auto;
-        display: flex;
-        align-items: center;
-    }
-    ul {
-        padding-left: 20px;
-    }
+        justify-content: center;
 
-    li {
-        margin-top: 15px;
-        padding-left: 10px;
-    }
-    .block {
-        padding-top: 20px;
+        .card {
+            margin-top: 15px;
+            background: var(--workbg);
+            border-radius: 5px;
+            box-shadow: var(--shadow);
+            padding: 20px;
+            max-width: 400px;
+            text-align: left;
+
+            .logos {
+                display: flex;
+                justify-content: flex-start;
+                gap: 10px;
+                margin-bottom: 20px;
+
+                img {
+                    display: inline-block;
+                }
+            }
+
+            h1 {
+                font-size: 22px;
+                font-weight: 700;
+                color: var(--light);
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                font-size: 19px;
+                color: var(--grey);
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 15px;
+                color: var(--greyLight);
+                line-height: 1.5;
+            }
+        }
+
+        .sub p{
+            margin-top: 10px;
+            font-size: 13px;
+        }
     }
 }
 
