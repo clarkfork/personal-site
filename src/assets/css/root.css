@@ -215,13 +215,11 @@
   font-weight: 700;
   font-size: 25px;
 }
-#top .title-desc p {
+#top .title-desc h6 {
   margin-top: 15px;
   font-size: 1.25rem;
   line-height: 1.75;
   font-weight: 400;
-  text-size-adjust: none;
-  font-size-adjust: none;
 }
 #work {
   padding-top: 30px;
