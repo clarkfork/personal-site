@@ -1,10 +1,4 @@
-/*-- -------------------------- -->
-<---        Core Styles         -->
-<--- -------------------------- -*/
-
-/* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
-    // Website colors
     :root {
         --dark: #f7f7f7;
         --light: #111010;
@@ -18,7 +12,7 @@
         --workbg: #fff;
 
         --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+        --border: 2px solid var(--light)
     }
 
     [data-theme="dark"] {
@@ -37,11 +31,11 @@
         --shadow: 0 4px 8px rgba(192, 192, 192, 0.1);
     }
 
-    /* Geist Regular */
+    // geist regular
     @font-face {
         font-style: normal;
         font-family: "Geist";
-        font-weight: 400; /* Normal */
+        font-weight: 400; // normal
         font-display: swap;
         src: local(""),
             url("/assets/fonts/Geist-Regular.woff2") format("woff2"),
@@ -52,7 +46,7 @@
     @font-face {
         font-style: normal;
         font-family: "Geist";
-        font-weight: 700; /* Semibold */
+        font-weight: 700; // semibold
         font-display: swap;
         src: local(""),
             url("/assets/fonts/Geist-Medium.woff2") format("woff2"),
@@ -67,7 +61,7 @@
 
     body,
     html {
-        font-family: "Geist", sans-serif; /* Fallback font */
+        font-family: "Geist", sans-serif;
         margin: 0;
         padding: 0;
         color: var(--bodyText);
@@ -102,7 +96,7 @@
     p,
     li,
     a {
-        font-family: 'Geist', sans-serif; /* Fallback font */
+        font-family: 'Geist', sans-serif;
     }
 
     a,
@@ -126,7 +120,7 @@
     }
 }
 
-/* Reset Margins */
+// resets margins
 @media only screen and (min-width: 1024px) {
     body,
     html {
@@ -135,17 +129,7 @@
     }
 }
 
-/* Scale full website with the viewport width */
-@media only screen and (min-width: 3000px) {
-    body,
-    html {
-        font-size: 0.55vw;
-    }
-}
-
-/* HEADER */
-/* HEADER */
-/* HEADER */
+// HEADER --------------------------------------------------- HEADER
 
 #header {
     padding-top: 45px;
@@ -159,7 +143,7 @@
     .nav-links {
         list-style: none;
         display: flex;
-        gap: 17px; /* Add space between links */
+        gap: 17px; // space between mobile nav links
     }
 
     .nav-links a {
@@ -170,12 +154,12 @@
 
     .dark-mode-toggle {
         display: flex;
-        margin-left: auto; /* Push the toggle to the right */
+        margin-left: auto; // push to right side of screen
         align-content: center;
     }
 
     .dark-mode-toggle img {
-        width: 20px; /* Adjust size as needed */
+        width: 20px;
         height: auto;
     }
 }
@@ -196,9 +180,8 @@
     display: block;
 }
 
-/* FOOTER */
-/* FOOTER */
-/* FOOTER */
+// FOOTER --------------------------------------------------- FOOTER
+
 
 #footer {
     padding-top: 45px;
@@ -246,9 +229,8 @@
     }
 }
 
-// WORK (on home and work pages)
-// WORK (on home and work pages)
-// WORK (on home and work pages)
+// WORK STYLES -------- (used on home and work pages) -------- WORK STYLES
+
 
 #work {
     padding-bottom: 30px;
@@ -257,6 +239,7 @@
         font-size: 20px;
     }
     .item {
+        border: var(--border);
         display: block;
         padding: 20px;
         background-color: var(--workbg);
@@ -267,10 +250,16 @@
         box-shadow: var(--shadow);
         border-radius: 5px;
     }
+    img {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
     .image {
         width: 100%;
         height: auto;
         object-fit: cover;
+        border: var(--border);
     }
     .image img {
         width: 100%;
@@ -307,7 +296,8 @@
 }
 
 
-// TOP OF OTHER PAGES (services, work, contact)
+// PAGE TOP ------- (used on services, work, contact) -------- PAGE TOP
+
 
 #page-top {
     padding-top: 10px;

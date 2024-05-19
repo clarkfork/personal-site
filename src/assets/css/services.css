@@ -12,6 +12,7 @@
   box-shadow: var(--shadow);
   padding: 20px;
   text-align: left;
+  border: var(--border);
 }
 #services .card-container .card .logos {
   display: flex;
@@ -31,9 +32,10 @@
 #services .card-container .card h2 {
   font-size: 19px;
   color: var(--grey);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #services .card-container .card p {
+  margin-top: 10px;
   font-size: 16px;
   color: var(--greyLight);
   line-height: 1.5;
@@ -41,4 +43,14 @@
 #services .card-container .sub p {
   margin-top: 10px;
   font-size: 13px;
+}
+#services .hide {
+  display: none;
+}
+#services .view-more {
+  margin-top: 10;
+}
+#services .view-more p {
+  text-align: center;
+  border: var(--border);
 }
