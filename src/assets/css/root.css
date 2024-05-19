@@ -50,6 +50,7 @@
   html {
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-size: 16px;
   }
   body,
   html {
@@ -98,6 +99,10 @@
     top: 0;
     left: 0;
     z-index: -1111111;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
   }
 }
 /* Reset Margins */
@@ -264,10 +269,7 @@
 }
 #page-top .top-content h1 {
   font-size: 25px;
-  font-family: 'Courier New', Courier, monospace;
 }
 #page-top .top-content p {
   margin-top: 15px;
-  font-size: 16px;
-  font-family: 'Courier New', Courier, monospace;
 }
