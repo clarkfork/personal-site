@@ -30,7 +30,7 @@
         <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/Geist-Regular.woff2" crossorigin>
         <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/Geist-Regular.woff" crossorigin>
 
-        <!--root here-->
+        <link rel="stylesheet" href="/assets/css/root.css">
 
         {% if preloadImg %}
             {% if preloadImg is string %}
@@ -80,7 +80,6 @@
         </main>
         {% include "components/footer.html" %}
 
-        <script defer src="/assets/js/nav.js"></script>
         <script defer src="/assets/js/dark.js"></script>
 
         {% if pageJS %}
@@ -96,7 +95,6 @@
         {% endif %}
 
         <script defer src="/assets/js/smooth.js"></script>
-        <link rel="stylesheet" href="/assets/css/root.css">
 
     </body>
 </html>
